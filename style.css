@@ -41,5 +41,15 @@ nav {
     font-size: 24px;
     font-weight: 600;
 }
+.nav-menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+.nav-menu ul li a {
+    color: var(--light-color);
+    text-decoration: none;
+}
+
 
 /*fin nav area*/
