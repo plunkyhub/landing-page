@@ -30,4 +30,16 @@ nav {
 .nav-container > * {
     grid-column: 2;
 }
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo a {
+    text-decoration: none;
+    color: var(--light-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
 /*fin nav area*/
