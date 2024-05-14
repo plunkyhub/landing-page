@@ -15,3 +15,19 @@ body {
     display: grid;
     grid-template-rows: 70px 430px 1fr 273px 70px;
 }
+
+/* nav area*/
+nav {
+    background-color: var(--color-dark);
+    position: sticky;
+    top: 0;
+    display: grid;
+}
+.nav-container {
+    display: grid;
+    grid-template-columns: 1fr min(100ch, 100%) 1fr;
+}
+.nav-container > * {
+    grid-column: 2;
+}
+/*fin nav area*/
