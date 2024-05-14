@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu&display=swap');
+
+:root {
+    --light-color: #F9FAF8;
+    --half-light-color: #e5e7eb;
+    --color-dark: #1F2937;
+    --button-color: #3882F6;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-rows: 70px 430px 1fr 273px 70px;
+}
