@@ -50,6 +50,10 @@ nav {
     color: var(--light-color);
     text-decoration: none;
 }
+.nav-logo-home {
+    object-fit: contain;
+    width: 150px;
+}
 
 /*fin nav area*/
 
