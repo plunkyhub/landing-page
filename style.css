@@ -104,3 +104,37 @@ h1 {
     height: 100%;
 }
 /*fin header area*/
+/* seccion informacion */
+.seccion-informacion {
+    display: grid;
+    grid-template-columns: 1fr min(90ch, 100%) 1fr;
+}
+.seccion-informacion > * {
+    grid-column: 2;
+    margin: 10px 0 50px 0;
+}
+.informacion-container h2 {
+    text-align: center;
+    font-size: 32px;
+    color: var(--color-dark);
+}
+.tags-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tag-item {
+    flex-basis: 150px;
+}
+.tag-paragraph {
+    padding: 5px;
+    text-align: center;
+    color: var(--color-dark);
+}
+.tag-img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid var(--button-color);
+    border-radius: 10px;
+}
+/* fin seccion informacion */
