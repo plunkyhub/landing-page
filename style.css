@@ -168,7 +168,43 @@ h1 {
     margin-right: 16px;
 }
 /* fin seccion cita */
-
+/* seccion call to action */
+.action {
+    display: grid;
+    grid-template-columns: 1fr min(100ch, 100%) 1fr;
+}
+.action > * {
+    grid-column: 2;
+    margin: 70px 0;
+}
+.action-container {
+    background-color: var(--button-color);
+    border-radius: 8px;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.action-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--light-color);
+    width: 100%;
+}
+.action-texts > h2, p {
+    margin: 0;
+}
+.action-button {
+    color: var(--light-color);
+    background-color: var(--button-color);
+    border: 3px solid var(--light-color);
+    padding: 7px 30px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* fin seccion call to action */
 
 /* footer */
 footer {
